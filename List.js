@@ -5,7 +5,7 @@ import {MyButton,InputText,LisItem} from './src/components/index'
 function  List (props) {
     
         const data = [{note : '' ,  isDone : Boolean },]
-   
+    
         const
             [entry , setEntry] = useState(""),
             [list , setlist] = useState(data),
